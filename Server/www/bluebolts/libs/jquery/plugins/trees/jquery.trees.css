@@ -1,0 +1,70 @@
+/** jQuery Buttons CSS:  The styles used by jQuery Buttons.
+*
+*	@author		David Wipperfurth
+*	@group		WellBe.me
+*	@dated		7/28/09
+*	@updated	2/16/10
+*	@version	0.5
+*/
+
+.jqt-button, .jqt-text-button{
+	position: relative;
+	display: inline-block;
+	margin: 2px 2px 2px 2px;
+	cursor: pointer;
+	zoom:1;								/* IE fix */
+	*display: inline;					/* IE -7 fix */
+}
+
+.jqt-tname{
+	cursor: pointer;
+}
+
+.jqt-root{
+	display: inline-block;
+	zoom:1;								/* IE fix */
+	*display: inline;					/* IE -7 fix */
+	padding: 4px 8px 6px 0px;
+}
+
+.jqt-root div{
+	padding-left: 10px;
+	border-left: dotted 1px grey;
+}
+
+.jqt-root  > :first-child{
+	border-left: none;
+}
+
+.jqt-root div .jqt-icon{
+	margin-left: -8px;
+}
+
+.jqt-disabled {
+	opacity: 0.35;						/* Standard: FF +1.5, Opera, Safari */
+	filter: alpha(opacity=35);			/* IE -8 */
+	-ms-filter: "alpha(opacity=35)";	/* IE 8 */
+	-khtml-opacity: 0.35;				/* Safari 1.x */
+	-moz-opacity: 0.35;					/* FF -1.5, Netscape */
+}
+
+.jqt-icon {
+	display:inline-block;
+	width:16px;
+	zoom:1;								/* IE fix */
+	*display: inline;					/* IE -7 fix */
+}
+.jqt-icon.ui-icon{						/* IE fix for jQuery-ui's -9999 text-indent issue */
+	text-indent: 0px;
+	display:inline-block;
+	width:16px;
+	zoom:1;								/* IE fix */
+	*display: inline;					/* IE -7 fix */
+}
+
+.jqt-ddContainer {
+	display:inline-block;
+	position: relative;
+	zoom:1;								/* IE fix */
+	*display: inline;					/* IE -7 fix */
+}

@@ -1,0 +1,18 @@
+/**	BB Theme:  Style information specific to BB and to a theme.
+*
+*	@author		David Wipperfurth
+*	@group		BlueSolutions
+*	@dated		2010-05-23
+*/
+
+body {
+	background: #000000 url(images/ui-bg_flat_50_5c5c5c_40x100.png);
+}
+
+.head {
+    background: #000000 url(images/ui-bg_gloss-wave_60_fece2f_500x100.png);
+}
+
+.body {
+
+}

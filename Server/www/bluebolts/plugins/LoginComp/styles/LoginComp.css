@@ -1,0 +1,19 @@
+/**	LoginComp:  Style information for the LoginComp object.
+*
+*	@author		David Wipperfurth
+*	@group		GoalKards
+*	@dated		2/26/10
+*	@updated	3/01/10
+*	@version	0.1
+*/
+
+.a-lic-error{
+	color:red;
+	width:100%;
+	text-align:left;
+}
+
+.a-lic-error-box{
+	height:18px;
+	width:100%;
+}
