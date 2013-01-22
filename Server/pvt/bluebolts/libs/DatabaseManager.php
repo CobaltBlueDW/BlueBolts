@@ -29,6 +29,7 @@ class DatabaseManager{
 	}
 	
 	public $insertID;		//The ID of the last inserted record
+	public $affectedRows;	//The number of affected rows by the last operation
 	protected $connection;	//MySQLi connection handle
 	protected $type;		//The 'type' of connection, which defines the connections permissions with the MySQL DB
 	
@@ -79,6 +80,7 @@ class DatabaseManager{
 		}
 		
 		$this->insertID = $this->connection->insert_id;
+		$this->affectedRows = $this->connection->affected_rows;
 		return $result;
 	}
 	
@@ -120,6 +122,7 @@ class DatabaseManager{
 		}
 		
 		$this->insertID = $this->connection->insert_id;
+		$this->affectedRows = $this->connection->affected_rows;
 		return $result;
 	}
 	
